@@ -1,2 +1,22 @@
-# Budget-Tracker
-A simple and interactive Budget Tracker web application that helps users manage their personal finances by recording income and expenses, calculating totals, and visualizing spending patterns. All data is stored locally in the browser so it persists even after a page refresh
+Budget Tracker
+
+Purpose  
+A simple web application to manage personal finances by tracking income and expenses, with automatic calculations and visual representation.
+
+Features  
+Add Transactions: Enter description, amount, and select Income or Expense.  
+Live Calculations: Displays total income, total expenses, and current balance.  
+Visualization: Pie chart showing income vs expenses.  
+Filtering: View all, income-only, or expense-only transactions.  
+Data Persistence: Uses LocalStorage to retain data after page refresh.  
+Delete Function: Allows removal of individual transactions.
+
+Technologies Used  
+HTML5: Structure of the application.  
+CSS3: Styling and responsive dashboard layout.  
+JavaScript: Handles logic, calculations, filtering, and LocalStorage.  
+Chart.js: Used for visualizing income and expenses.
+
+Setup Instructions  
+Place index.html, style.css, and script.js in the same folder.  
+Open index.html in any modern web browser.
